@@ -19,18 +19,27 @@ const AboutMe = () => {
           years, I've developed a deep understanding of both front-end and
           back-end technologies.
         </p>
-        <p className="text-lg mb-4 leading-relaxed">
+        <p
+          className="text-lg mb-4 leading-relaxed"
+          style={{ fontFamily: "Dancing Script, cursive" }}
+        >
           I thrive on challenges and enjoy solving problems creatively. My goal
           is to build responsive and interactive web applications that delight
           users and meet their needs.
         </p>
-        <p className="text-lg mb-4 leading-relaxed">
+        <p
+          className="text-lg mb-4 leading-relaxed"
+          style={{ fontFamily: "Dancing Script, cursive" }}
+        >
           When I'm not immersed in code, you can find me exploring new
           technologies, reading insightful articles, or working on personal
           projects that fuel my curiosity.
         </p>
         <div className="mt-8 flex items-center space-x-4">
-          <p className="text-lg font-semibold mb-4">
+          <p
+            className="text-lg font-semibold mb-4"
+            style={{ fontFamily: "Dancing Script, cursive" }}
+          >
             Let's connect and create something amazing together!
           </p>
           <a
