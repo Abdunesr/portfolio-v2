@@ -169,7 +169,7 @@ const data = [
     ),
   },
   {
-    category: "React popcorn APP",
+    category: "React Pizza  APP",
     title: "React app",
     src: reactfastpiza,
     content: (

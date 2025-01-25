@@ -8,9 +8,12 @@ import About from "./componets/screen/About";
 import AppleCardsCarouselDemo from "./componets/apple";
 import Services from "./componets/Myservices";
 import ThemeToggle from "./componets/ThemeToggle";
+
+
 function App() {
   return (
-    <div className="mt-0 mb-0 dark:bg-black  dark:text-white">
+    <div className="mt-0 mb-0 dark:bg-black dark:text-white">
+   
       <ThemeToggle />
       <Nav />
       <Home />
@@ -18,7 +21,6 @@ function App() {
       <Skill />
       <AppleCardsCarouselDemo />
       <Services />
-
       <Test />
       <Contactpage />
     </div>
