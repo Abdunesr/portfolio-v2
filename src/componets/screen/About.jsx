@@ -9,7 +9,10 @@ const AboutMe = () => {
     >
       <div className="max-w-4xl p-8 bg-white text-black rounded-lg  transform transition-all dark:bg-black dark:text-white">
         <h1 className="text-5xl font-bold text-center mb-6">About Me</h1>
-        <p className="text-lg mb-4 leading-relaxed">
+        <p
+          className="text-lg mb-4 leading-relaxed"
+          style={{ fontFamily: "Dancing Script, cursive" }}
+        >
           Hello! I'm a passionate web developer dedicated to creating beautiful
           and functional user experiences. My journey in web development began
           with a fascination for how websites are constructed, and over the
