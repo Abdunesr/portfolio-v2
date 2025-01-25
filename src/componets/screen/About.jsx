@@ -1,9 +1,13 @@
 import React from "react";
+import { FaLinkedin } from "react-icons/fa"; // Import LinkedIn icon
 
 const AboutMe = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen dark:bg-black  text-white">
-      <div className="max-w-4xl p-8 bg-white text-black rounded-lg shadow-lg transform transition-all  dark:bg-black dark:text-whites">
+    <div
+      id="about"
+      className="flex flex-col items-center justify-center min-h-screen dark:bg-black dark:text-white  text-white"
+    >
+      <div className="max-w-4xl p-8 bg-white text-black rounded-lg shadow-lg transform transition-all dark:bg-black dark:text-white">
         <h1 className="text-5xl font-bold text-center mb-6">About Me</h1>
         <p className="text-lg mb-4 leading-relaxed">
           Hello! I'm a passionate web developer dedicated to creating beautiful
@@ -22,10 +26,20 @@ const AboutMe = () => {
           technologies, reading insightful articles, or working on personal
           projects that fuel my curiosity.
         </p>
-        <div className="mt-8 text-center">
-          <p className="text-lg font-semibold">
-            Let's connect and create something amazing together!
+        <div className="mt-8 flex ml-2">
+          <p className="text-lg font-semibold mb-4">
+            Let's connect and create something amazing together!{" "}
           </p>
+          <a
+            href="https://www.linkedin.com/in/abdelah-nesredin-a6058b318/" // Replace with your LinkedIn profile URL
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            className="text-blue-600 hover:text-blue-800 transition-all"
+          >
+            <FaLinkedin size={28} /> {/* LinkedIn icon with size 40px */}
+          </a>
+          {/* LinkedIn Icon */}
         </div>
       </div>
     </div>

@@ -8,18 +8,23 @@ import { useEffect, useState } from "react";
 
 function Home() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center h-screen bg-white text-gray-800 p-4 sm:p-6 md:p-10 lg:p-12 xl:p-16 dark:bg-black dark:text-white">
+    <div
+      id="home"
+      className="flex flex-col md:flex-row items-center justify-center h-screen bg-white text-gray-800 p-4 sm:p-6 md:p-10 lg:p-12 xl:p-16 dark:bg-black dark:text-white"
+    >
       <div className="flex flex-col md:w-1/2 p-4 animate__animated animate__fadeInLeft relative group">
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 animate__animated animate__fadeInDown">
           <AnimatedText />
         </h2>
         <div className="overflow-hidden items-center">
           <img
+            loading="lazy"
             src={lightme}
             alt="Animated"
             className="block dark:hidden w-52 sm:w-60 md:w-72 lg:w-80 h-52 sm:h-60 md:h-72 lg:h-80 transition-transform duration-300 transform group-hover:translate-y-[-20px] group-hover:scale-105 group-hover:animate-oo"
           />
           <img
+            loading="lazy"
             src={darkme}
             alt="Animated"
             className="hidden dark:block w-52 sm:w-60 md:w-72 lg:w-80 h-52 sm:h-60 md:h-72 lg:h-80 transition-transform duration-300 transform group-hover:translate-y-[-20px] group-hover:scale-105 group-hover:animate-oo"
@@ -31,6 +36,7 @@ function Home() {
             className="mx-2"
           >
             <img
+              loading="lazy"
               src={linkdin}
               alt="LinkedIn"
               className="w-5 sm:w-6 h-5 sm:h-6 inline"
@@ -38,6 +44,7 @@ function Home() {
           </a>
           <a href="https://github.com/Abdunesr/" className="mx-2">
             <img
+              loading="lazy"
               src={git}
               alt="GitHub"
               className="w-5 sm:w-6 h-5 sm:h-6 inline"

@@ -8,6 +8,7 @@ const Card = (props) => {
       {/* Profile Image Section */}
       <div className="relative">
         <img
+          loading="lazy"
           className="aspect-square rounded-full w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] lg:w-[140px] lg:h-[140px] shadow-md"
           src={review.image}
           alt={`${review.name}'s avatar`}
